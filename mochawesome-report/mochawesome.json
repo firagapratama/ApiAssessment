@@ -1,0 +1,293 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-09-27T15:04:12.907Z",
+    "end": "2023-09-27T15:04:14.531Z",
+    "duration": 1624,
+    "testsRegistered": 8,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "de512fe7-6101-4413-829d-3b266d325c84",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "56194ffe-cf09-4d87-bdab-69101500d076",
+          "title": "Get User from page 3",
+          "fullFile": "C:\\Users\\ACER\\Documents\\ApiAssesment\\ApiAssesment\\test\\api\\test.js",
+          "file": "\\test\\api\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "response status equal to 200",
+              "fullTitle": "Get User from page 3 response status equal to 200",
+              "timedOut": false,
+              "duration": 186,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).status).to.equal(200)",
+              "err": {},
+              "uuid": "914125b0-0ccd-421e-9fc2-809b676ecb7c",
+              "parentUUID": "56194ffe-cf09-4d87-bdab-69101500d076",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "response body to haveOwnProperty",
+              "fullTitle": "Get User from page 3 response body to haveOwnProperty",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).body).to.haveOwnProperty(`page`)",
+              "err": {},
+              "uuid": "ec0af0ea-dfe6-4f3b-9eec-e431b72faf9f",
+              "parentUUID": "56194ffe-cf09-4d87-bdab-69101500d076",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "914125b0-0ccd-421e-9fc2-809b676ecb7c",
+            "ec0af0ea-dfe6-4f3b-9eec-e431b72faf9f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 188,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "f487670a-7b27-4ccf-8609-7ce43de5ba2c",
+          "title": "Get Single User with ID 10",
+          "fullFile": "C:\\Users\\ACER\\Documents\\ApiAssesment\\ApiAssesment\\test\\api\\test.js",
+          "file": "\\test\\api\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "response status equal to 200",
+              "fullTitle": "Get Single User with ID 10 response status equal to 200",
+              "timedOut": false,
+              "duration": 465,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).status).to.equal(200)",
+              "err": {},
+              "uuid": "d0bbbd8d-5084-4f0c-a5c3-df138ca53d92",
+              "parentUUID": "f487670a-7b27-4ccf-8609-7ce43de5ba2c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "response body to haveOwnProperty",
+              "fullTitle": "Get Single User with ID 10 response body to haveOwnProperty",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).body).to.haveOwnProperty(`data`)",
+              "err": {},
+              "uuid": "c707afc5-9a3e-4987-a7f9-cc8acc6a04b2",
+              "parentUUID": "f487670a-7b27-4ccf-8609-7ce43de5ba2c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d0bbbd8d-5084-4f0c-a5c3-df138ca53d92",
+            "c707afc5-9a3e-4987-a7f9-cc8acc6a04b2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 466,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "0c91abe8-4ac6-464f-99c5-e3abd318ce11",
+          "title": "Register succesful",
+          "fullFile": "C:\\Users\\ACER\\Documents\\ApiAssesment\\ApiAssesment\\test\\api\\test.js",
+          "file": "\\test\\api\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "response status equal to 200",
+              "fullTitle": "Register succesful response status equal to 200",
+              "timedOut": false,
+              "duration": 503,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).status).to.equal(200)",
+              "err": {},
+              "uuid": "21b8b2cc-b1db-4a33-8a85-5bf9e9b88be3",
+              "parentUUID": "0c91abe8-4ac6-464f-99c5-e3abd318ce11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "response body to haveOwnProperty",
+              "fullTitle": "Register succesful response body to haveOwnProperty",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).body).to.haveOwnProperty(`id`)",
+              "err": {},
+              "uuid": "9f417d57-9f73-4ee1-9425-0985d0055961",
+              "parentUUID": "0c91abe8-4ac6-464f-99c5-e3abd318ce11",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "21b8b2cc-b1db-4a33-8a85-5bf9e9b88be3",
+            "9f417d57-9f73-4ee1-9425-0985d0055961"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 504,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "40b5c81f-17f1-4728-9650-6e7b16b52b3d",
+          "title": "Register failed",
+          "fullFile": "C:\\Users\\ACER\\Documents\\ApiAssesment\\ApiAssesment\\test\\api\\test.js",
+          "file": "\\test\\api\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "response status equal to 400",
+              "fullTitle": "Register failed response status equal to 400",
+              "timedOut": false,
+              "duration": 444,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).status).to.equal(400)",
+              "err": {},
+              "uuid": "8726b645-5391-4e2a-b3e3-403475142131",
+              "parentUUID": "40b5c81f-17f1-4728-9650-6e7b16b52b3d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "response body to haveOwnProperty",
+              "fullTitle": "Register failed response body to haveOwnProperty",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).body).to.haveOwnProperty(`error`)",
+              "err": {},
+              "uuid": "b37b6833-75a3-4b45-9262-de6bc412c279",
+              "parentUUID": "40b5c81f-17f1-4728-9650-6e7b16b52b3d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8726b645-5391-4e2a-b3e3-403475142131",
+            "b37b6833-75a3-4b45-9262-de6bc412c279"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 444,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
